@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22349" started-at="2019-09-15T13:38:06Z" finished-at="2019-09-15T13:38:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22349" started-at="2019-09-15T13:38:06Z" finished-at="2019-09-15T13:38:28Z">
+      <class name="com.test.SampleTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.SampleTest@28feb3fa]" name="launchBrowser" is-config="true" duration-ms="7529" started-at="2019-09-15T19:08:06Z" finished-at="2019-09-15T19:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyingExternalLinks()[pri:0, instance:com.test.SampleTest@28feb3fa]" name="verifyingExternalLinks" duration-ms="9833" started-at="2019-09-15T19:08:13Z" finished-at="2019-09-15T19:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingExternalLinks -->
+        <test-method status="PASS" signature="verifyingOxygenArticle()[pri:0, instance:com.test.SampleTest@28feb3fa]" name="verifyingOxygenArticle" duration-ms="3987" started-at="2019-09-15T19:08:23Z" depends-on-methods="com.test.SampleTest.verifyingExternalLinks" finished-at="2019-09-15T19:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingOxygenArticle -->
+        <test-method status="PASS" signature="verifyElementProperties()[pri:0, instance:com.test.SampleTest@28feb3fa]" name="verifyElementProperties" duration-ms="830" started-at="2019-09-15T19:08:27Z" depends-on-methods="com.test.SampleTest.verifyingOxygenArticle" finished-at="2019-09-15T19:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementProperties -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.test.SampleTest@28feb3fa]" name="end" is-config="true" duration-ms="154" started-at="2019-09-15T19:08:28Z" finished-at="2019-09-15T19:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.test.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
